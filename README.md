@@ -18,14 +18,6 @@ A voltage stabilizer is a critical circuit that ensures a **steady output voltag
 
 ---
 
-## 🖼️ Circuit Schematic
-
-![Voltage Stabilizer Circuit](Screenshot%202025-03-27%20200222.png)
-
-> Schematic created in **OrCAD Capture**. Full simulation performed in **PSpice**.
-
----
-
 ## 🛠️ Key Features
 
 - ✅ Discrete analog design (no integrated voltage regulators)
