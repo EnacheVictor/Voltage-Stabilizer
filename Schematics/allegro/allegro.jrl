@@ -1,0 +1,34 @@
+\t (00:00:02) allegro 24.1 S001 (4251327) [11/6/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Dec  7 16:38:22 2024
+\t (00:00:02)         Host=RARES-LAPTOP User=rares Pid=30360 CPUs=20
+\t (00:00:02) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe D:\P1_Victor\allegro\PROIECT1_ENACHEVICTOR.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "PROIECT1_ENACHEVICTOR"
+\d (00:00:05) Design opened: D:/P1_Victor/allegro/PROIECT1_ENACHEVICTOR.brd
+\i (00:00:05) trapsize 1092
+\i (00:00:05) trapsize 1126
+\i (00:00:05) trapsize 1092
+\i (00:00:05) trapsize 1001
+\i (00:00:05) trapsize 1001
+\t (00:00:05) > Sending response DoneOpenBoard
+\i (00:00:06) generaledit 
+\i (00:00:07) 3dx 
+\i (00:00:09) QtSignal Allegro3DWindow Allegro3DWindow activate
+\i (00:00:09) QtSignal Allegro3DWindow Allegro3DWindow deactivate
+\i (00:00:09) QtSignal Allegro3DWindow Allegro3DWindow activate
+\i (00:00:09) updateport VisibilityPane
+\i (00:00:09) QtSignal Visibility3DCompWidget Visibility3DCompWidget refresh
+\i (00:00:09) generaledit 
+\i (00:00:14) QtSignal Allegro3DWindow Allegro3DWindow activate
+\i (00:00:19) QtSignal Allegro3DWindow Allegro3DWindow close
+\i (00:00:19) QtSignal Allegro3DWindow Allegro3DWindow deactivate
+\i (00:00:20) exit 
+\t (00:00:20) Lic Summary:
+[16:38:40.063712] Cdslmd servers:C:\Users\rares\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[16:38:40.596000] Feature usage summary:
+[16:38:40.596000] OrCAD_X_PCB_Professional_Plus
+[16:38:40.596000] OrCAD_X_Professional_Plus
+
+\t (00:00:20)     Journal end - Sat Dec  7 16:38:40 2024

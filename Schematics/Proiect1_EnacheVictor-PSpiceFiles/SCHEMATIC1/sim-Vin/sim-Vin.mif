@@ -1,0 +1,6 @@
+ lib=, offset=476, size=771
+ lib=, offset=475, size=781
+ lib=, offset=471, size=190
+ lib=, offset=497, size=476
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\breakout.lib, offset=8241, size=133
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\PSpiceModelApps.lib, offset=125, size=215

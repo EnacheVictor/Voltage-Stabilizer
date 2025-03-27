@@ -1,0 +1,549 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 24.1.0 d001Dec-07-2024 at 11:46:25 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PROIECT1_ENACHEVICTOR';
+ POST_TIME='Nov  4 2024 10:21:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ D1 'LED_3_OFSMD2012B_5V,LED,LED':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342947@PROIECT1_ENACHEVICTOR.LED_3.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342947@proiect1_enachevictor.\led_3.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342947@proiect1_enachevictor.\led_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(180,190)',
+ SECTION='';
+
+PART_NAME
+ D2 'BZX84-C2V7_0_SOT95P230X110-3N_B':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343627@PROIECT1_ENACHEVICTOR.BZX84-C2V7_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343627@proiect1_enachevictor.\bzx84-c2v7_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343627@proiect1_enachevictor.\bzx84-c2v7_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(280,390)',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_3_OFSMD2012B_5V,LED,LED':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343819@PROIECT1_ENACHEVICTOR.LED_3.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343819@proiect1_enachevictor.\led_3.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343819@proiect1_enachevictor.\led_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1230,450)',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS349935@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins349935@connector.\con2.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins349935@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(140,170)',
+ SECTION='';
+
+PART_NAME
+ J2 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS349951@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins349951@connector.\con2.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins349951@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1320,350)',
+ SECTION='';
+
+PART_NAME
+ P1 'POT_0_3314G-1-102E_5K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343521@PROIECT1_ENACHEVICTOR.POT_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343521@proiect1_enachevictor.\pot_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343521@proiect1_enachevictor.\pot_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(590,340)',
+ SECTION='';
+
+PART_NAME
+ P2 'POT_0_3314G-1-102E_5K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS344221@PROIECT1_ENACHEVICTOR.POT_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins344221@proiect1_enachevictor.\pot_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins344221@proiect1_enachevictor.\pot_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(840,670)',
+ SECTION='';
+
+PART_NAME
+ Q1 'QMJD31C_2_TO229P990X238-4N_QMJD':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342769@PROIECT1_ENACHEVICTOR.QMJD31C_2.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342769@proiect1_enachevictor.\qmjd31c_2.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342769@proiect1_enachevictor.\qmjd31c_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1080,150)',
+ SECTION='';
+
+PART_NAME
+ Q10 'QBC846B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343793@PROIECT1_ENACHEVICTOR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343793@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343793@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(860,450)',
+ SECTION='';
+
+PART_NAME
+ Q11 'QBC846B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343905@PROIECT1_ENACHEVICTOR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343905@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343905@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1010,510)',
+ SECTION='';
+
+PART_NAME
+ Q12 'QBC846B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS344031@PROIECT1_ENACHEVICTOR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins344031@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins344031@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(730,550)',
+ SECTION='';
+
+PART_NAME
+ Q13 'QBC846B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS344057@PROIECT1_ENACHEVICTOR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins344057@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins344057@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(810,550)',
+ SECTION='';
+
+PART_NAME
+ Q2 'QBC856B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342999@PROIECT1_ENACHEVICTOR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342999@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342999@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(330,200)',
+ SECTION='';
+
+PART_NAME
+ Q3 'QBC856B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343051@PROIECT1_ENACHEVICTOR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343051@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343051@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(900,200)',
+ SECTION='';
+
+PART_NAME
+ Q4 'QBC846B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342963@PROIECT1_ENACHEVICTOR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342963@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342963@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1020,190)',
+ SECTION='';
+
+PART_NAME
+ Q5 'QBC856B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343183@PROIECT1_ENACHEVICTOR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343183@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343183@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,240)',
+ SECTION='';
+
+PART_NAME
+ Q6 'QBC846B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343151@PROIECT1_ENACHEVICTOR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343151@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343151@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,230)',
+ SECTION='';
+
+PART_NAME
+ Q7 'QBC856B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343469@PROIECT1_ENACHEVICTOR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343469@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343469@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(360,340)',
+ SECTION='';
+
+PART_NAME
+ Q8 'QBC856B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343495@PROIECT1_ENACHEVICTOR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343495@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343495@proiect1_enachevictor.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(470,340)',
+ SECTION='';
+
+PART_NAME
+ Q9 'QBC846B_0_SOT95P230X110-3N_QBC8':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343767@PROIECT1_ENACHEVICTOR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343767@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343767@proiect1_enachevictor.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(760,450)',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RESC2013X65N_100':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342815@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342815@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342815@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(280,170)',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RESC2013X65N_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343339@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343339@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343339@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(340,280)',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RESC2013X65N_1K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343365@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343365@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343365@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(180,310)',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RESC2013X65N_8.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343393@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343393@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343393@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(640,320)',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RESC2013X65N_220':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343413@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343413@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343413@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(690,320)',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RESC2013X65N_680':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343575@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343575@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343575@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(720,350)',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RESC2013X65N_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343647@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343647@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343647@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(590,390)',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RESC2013X65N_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343667@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343667@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343667@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(640,390)',
+ SECTION='';
+
+PART_NAME
+ R17 'R_RESC2013X65N_1.5K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343687@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343687@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343687@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(720,410)',
+ SECTION='';
+
+PART_NAME
+ R18 'R_RESC2013X65N_2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS353964@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins353964@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins353964@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1080,410)',
+ SECTION='';
+
+PART_NAME
+ R19 'R_RESC2013X65N_2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS354090@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins354090@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins354090@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1120,410)',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RESC2013X65N_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342835@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342835@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342835@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(420,170)',
+ SECTION='';
+
+PART_NAME
+ R20 'R_RESC2013X65N_2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS353998@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins353998@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins353998@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1150,410)',
+ SECTION='';
+
+PART_NAME
+ R21 'R_RESC2013X65N_2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS354124@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins354124@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins354124@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1180,410)',
+ SECTION='';
+
+PART_NAME
+ R22 'R_RESC2013X65N_2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS354158@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins354158@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins354158@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1210,410)',
+ SECTION='';
+
+PART_NAME
+ R23 'R_RESC2013X65N_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343849@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343849@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343849@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(910,460)',
+ SECTION='';
+
+PART_NAME
+ R24 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343931@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343931@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343931@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1230,510)',
+ SECTION='';
+
+PART_NAME
+ R25 'R_RESC2013X65N_22K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS344003@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins344003@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins344003@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(370,540)',
+ SECTION='';
+
+PART_NAME
+ R26 'R_RESC2013X65N_22K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343969@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343969@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343969@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,540)',
+ SECTION='';
+
+PART_NAME
+ R27 'R_RESC2013X65N_100':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS344147@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins344147@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins344147@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(720,600)',
+ SECTION='';
+
+PART_NAME
+ R28 'R_RESC2013X65N_100':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS344127@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins344127@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins344127@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,590)',
+ SECTION='';
+
+PART_NAME
+ R29 'R_RESC2013X65N_1K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS344105@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins344105@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins344105@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(960,580)',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RESC2013X65N_3.3K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342863@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342863@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342863@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(770,170)',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RESC2013X65N_3.3K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342883@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342883@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342883@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(850,170)',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RESC2013X65N_0.47':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS342903@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins342903@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins342903@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1230,170)',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RESC2013X65N_22K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343103@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343103@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343103@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(420,220)',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RESC2013X65N_1':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343077@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343077@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343077@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1230,210)',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RESC2013X65N_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343217@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343217@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343217@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(950,240)',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@PROIECT1_ENACHEVICTOR.SCHEMATIC1(SCH_1):INS343289@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect1_enachevictor.schematic1(sch_1):ins343289@analog.\r.normal\(chips)',
+ P_PATH='@proiect1_enachevictor.schematic1(sch_1):page1_ins343289@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(180,260)',
+ SECTION='';
+
+END.

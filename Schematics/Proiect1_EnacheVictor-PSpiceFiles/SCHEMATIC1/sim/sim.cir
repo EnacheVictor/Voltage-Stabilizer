@@ -1,0 +1,24 @@
+** Profile: "SCHEMATIC1-sim"  [ C:\Users\Enach\Desktop\Proiect1\Proiect1_EnacheVictor-PSpiceFiles\SCHEMATIC1\sim.sim ] 
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../biblioteci spice/bc846b.lib" 
+.LIB "../../../biblioteci spice/bc856b.lib" 
+.LIB "../../../biblioteci spice/opto.lib" 
+.LIB "../../../biblioteci spice/bzx84c2v7.lib" 
+.LIB "../../../biblioteci spice/mjd31cg.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Enach\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP 0 150 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

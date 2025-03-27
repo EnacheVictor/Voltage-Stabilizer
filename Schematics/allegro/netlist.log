@@ -1,0 +1,16 @@
+{ Using PSTWRITER 24.1.0 d001Dec-07-2024 at 11:46:25 }
+
+#1 WARNING(ORCAP-36006): Part Name "BZX84-C2V7_0_SOT95P230X110-3N_BZX84-C2V7" is renamed to "BZX84-C2V7_0_SOT95P230X110-3N_B".
+#2 WARNING(ORCAP-36006): Part Name "QMJD31C_2_TO229P990X238-4N_QMJD31C" is renamed to "QMJD31C_2_TO229P990X238-4N_QMJD".
+#3 WARNING(ORCAP-36006): Part Name "QBC846B_0_SOT95P230X110-3N_QBC846B" is renamed to "QBC846B_0_SOT95P230X110-3N_QBC8".
+#4 WARNING(ORCAP-36006): Part Name "QBC856B_0_SOT95P230X110-3N_QBC856B" is renamed to "QBC856B_0_SOT95P230X110-3N_QBC8".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... D:\P1_Victor\Enache_Victor\Schematics\Proiect\allegro\pstchip.dat
+
+Loading... D:\P1_Victor\Enache_Victor\Schematics\Proiect\allegro\pstchip.dat
+
+Loading... D:\P1_Victor\Enache_Victor\Schematics\Proiect\allegro\pstxprt.dat
+
+Loading... D:\P1_Victor\Enache_Victor\Schematics\Proiect\allegro\pstxnet.dat
+packaging the design view...

@@ -1,0 +1,189 @@
+
+**** 11/11/24 13:15:24 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-temp"  [ C:\Users\Enach\Desktop\Proiect1\Proiect1_EnacheVictor-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "temp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../biblioteci spice/bc846b.lib" 
+.LIB "../../../biblioteci spice/bc856b.lib" 
+.LIB "../../../biblioteci spice/opto.lib" 
+.LIB "../../../biblioteci spice/bzx84c2v7.lib" 
+.LIB "../../../biblioteci spice/mjd31cg.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Enach\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP 0 150 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT1_ENACHEVICTOR
+R_R16         N322992 0  1k  
+Q_Q8         N322908 N322780 N3231121 QBC846B 
+R_R12         0 N322638  22k  
+R_R3         N3220181 N321746  10k  
+R_R18         N322504 N322330  220  
+R_R13         N3219581 N321860  0.47  
+Q_Q12         N322210 N321860 N322330 QBC846B 
+Q_Q6         N322102 N322634 N322908 QBC846B 
+R_R14         N322330 N3219581  1  
+R_R6         N321746 N322102  3.3k  
+R_R11         0 N322634  22k  
+R_R7         0 N323144  100  
+R_R4         N322344 N3220181  22k  
+D_D2         N321746 N322108 MLED81
+R_R8         0 N3231121  100  
+R_R15         N322300 N322210  2.2k  
+R_R2         0 N322222  10k  
+Q_Q3         N322634 N322410 N322344 QBC856B 
+D_D3         N322330 N3228961 MLED81
+V_V1         N321746 0 20Vdc
+Q_Q7         N322780 N322780 N323144 QBC846B 
+X_P2         N322992 N322410 N322410 POT PARAMS: SET=0.21 VALUE=5k
+Q_Q13         N322210 N322992 0 QBC846B 
+Q_Q4         N322638 N322628 N322344 QBC856B 
+R_R22         0 N322108  1.8k  
+R_R20         0 N322642  10k  
+R_R1         N322068 N321746  100  
+R_R10         N322780 N321746  2.2k  
+Q_Q11         N321746 N322210 N322032 QBC846B 
+Q_Q2         N322222 N322068 N321746 QBC856B 
+R_R5         N321746 N322098  3.3k  
+Q_Q5         N322098 N322638 N322908 QBC846B 
+D_D1         0 N322410 BZX84-C2V7 
+R_R19         N322498 N322504  8.2k  
+R_R23         0 N3228961  820  
+Q_Q1         N322410 N322222 N322068 QBC856B 
+Q_Q10         N321746 N322032 N321860 QMJD31C 
+R_R9         0 N322300  10k  
+X_P1         N322642 N322628 N322498 POT PARAMS: SET={SET} VALUE=5k
+Q_Q9         N322300 N322098 N321746 QBC856B 
+R_R17         0 N322330  {LOAD}  
+R_R21         0 N322642  10k  
+.PARAM  load=400 set=0.5
+
+**** RESUMING temp.cir ****
+.END
+
+**** 11/11/24 13:15:24 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-temp"  [ C:\Users\Enach\Desktop\Proiect1\Proiect1_EnacheVictor-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MLED81          BZX84-C2V7      
+          IS   10.000000E-09  110.880000E-18 
+           N    1.1248           .92657      
+         ISR   10.010000E-21    1.515900E-06 
+         IKF   45.752000E-15  147.68         
+          BV    5.4169          2.7639       
+         IBV   10                .06977      
+          RS    1.2366           .85899      
+          TT    5.000000E-09   17.889000E-09 
+         CJO   25.000000E-12  344.690000E-12 
+          VJ     .75             .72935      
+           M     .3333           .31964      
+
+
+**** 11/11/24 13:15:24 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-temp"  [ C:\Users\Enach\Desktop\Proiect1\Proiect1_EnacheVictor-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         QMJD31C         
+               NPN             PNP             NPN             
+       LEVEL    1               1               1            
+          IS   18.220000E-15   20.140000E-15   90.620200E-12 
+          EG                                    1.05         
+          BF  324.4           315.3             3.418700E+03 
+          NF     .9932           .9974          1.17603      
+         VAF   82              39.15           29.2393       
+         IKF     .109            .079            .108267     
+         ISE  289.400000E-18    6.578000E-15  537.193000E-09 
+          NE    1.4             1.45            4            
+          BR    8.29            8.68          367.353        
+          NR     .9931           .9952          5            
+         VAR   17.9             9.5             1.631        
+         IKR     .09             .09            1.15207      
+         ISC    9.982000E-12   16.330000E-15    1.157540E-09 
+          NC    1.763           1.15            1.49179      
+         ISS    0               0               0            
+          RB   10              10              22.4853       
+         RBM    5               5.000000E-06    1.000000E-12 
+         IRB    5.000000E-06    5.000000E-06    2.209370E-03 
+          RE     .649            .663         100.000000E-06 
+          RC     .7014           .718            .138633     
+         CJE   12.440000E-12   11.350000E-12  373.889000E-12 
+         VJE     .7579           .7071           .67672      
+         MJE     .3656           .3808           .575056     
+         CJC    3.347000E-12    6.395000E-12  352.510000E-12 
+         VJC     .5463           .4951           .884306     
+         MJC     .391            .44             .473486     
+        XCJC     .6193           .6288           .1          
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+         MJS     .333            .333            .5          
+          FC     .979            .9059           .8          
+          TF  490.800000E-12  654.600000E-12   10.000000E-09 
+         XTF    9.51            5.387           3.4926       
+         VTF    2.927           6.245          12.6615       
+         ITF     .3131           .2108           .052395     
+          TR   90.000000E-09   55.000000E-09    3.298030E-06 
+         XTB                                  999.997000E-15 
+         XTI                                    1.000000E-12 
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.2             2.42         
+           D     .87             .52             .87         
+
+
+
+          JOB CONCLUDED
+
+**** 11/11/24 13:15:24 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-temp"  [ C:\Users\Enach\Desktop\Proiect1\Proiect1_EnacheVictor-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

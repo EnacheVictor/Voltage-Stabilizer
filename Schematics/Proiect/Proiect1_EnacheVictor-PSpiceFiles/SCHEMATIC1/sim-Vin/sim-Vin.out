@@ -1,0 +1,193 @@
+
+**** 11/21/24 17:18:30 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim-Vin"  [ C:\Users\Enach\Desktop\Proiect1\Schematics\Proiect\proiect1_enachevictor-pspicefiles\schematic1\
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim-Vin.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../biblioteci spice/bc846b.lib" 
+.LIB "../../../biblioteci spice/bc856b.lib" 
+.LIB "../../../biblioteci spice/opto.lib" 
+.LIB "../../../biblioteci spice/bzx84c2v7.lib" 
+.LIB "../../../biblioteci spice/mjd31cg.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Enach\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 18 20 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT1_ENACHEVICTOR
+Q_Q7         N343755 N343755 N344101 QBC846B 
+R_R5         N342683 N343033  3.3k  
+Q_Q8         N343871 N343755 N3440691 QBC846B 
+Q_Q3         N343597 N343335 N343255 QBC856B 
+Q_Q4         N343601 N343571 N343255 QBC856B 
+R_R25         N343623 N342683  680  
+Q_Q9         N343211 N343033 N342683 QBC856B 
+R_R7         0 N344101  100  
+R_R2         0 N343149  10k  
+R_R20         0 N343605  10k  
+X_P1         N343605 N343571 N343435 POT PARAMS: SET={SET} VALUE=5k
+Q_Q2         N343149 N342997 N342683 QBC856B 
+R_R8         0 N3440691  100  
+X_P2         N343953 N343335 N343335 POT PARAMS: SET=0.21 VALUE=5k
+Q_Q5         N343033 N343601 N343871 QBC846B 
+Q_Q13         N343137 N343953 0 QBC846B 
+R_R9         0 N343211  10k  
+R_R10         N343755 N343623  1.5k  
+R_R17         0 N343241  {LOAD}  
+R_R16         N343953 0  1k  
+R_R19         N343435 N343441  8.2k  
+Q_Q10         N342683 N342945 N342797 QMJD31C 
+R_R15         N343211 N343137  2.2k  
+R_R21         0 N343605  10k  
+Q_Q1         N343335 N343149 N342997 QBC856B 
+Q_Q11         N342683 N343137 N342945 QBC846B 
+R_R11         0 N343597  22k  
+R_R1         N342997 N342683  100  
+Q_Q6         N343037 N343597 N343871 QBC846B 
+Q_Q12         N343137 N342797 N343241 QBC846B 
+R_R24         0 N343361  1k  
+X_D2         N342683 N343179 LED PARAMS: IS=2.6404e-27 RS=2  BV=5 IBV=10e-6    
++      
+R_R22         N343361 N343179  820  
+X_D3         N343241 N3438291 LED PARAMS: IS=2.6404e-27 RS=2  BV=5 IBV=10e-6   
++       
+R_R13         N3429131 N342797  0.47  
+V_V1         N342683 0 20Vdc
+R_R14         N343241 N3429131  1  
+R_R23         0 N3438291  820  
+R_R12         0 N343601  22k  
+R_R6         N342683 N343037  3.3k  
+D_D1         0 N343335 BZX84-C2V7 
+R_R18         N343441 N343241  220  
+R_R4         N343255 N343027  22k  
+R_R3         N343027 N342683  10k  
+.PARAM  load=400 set=0.5
+
+**** RESUMING sim-Vin.cir ****
+.END
+
+**** 11/21/24 17:18:30 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim-Vin"  [ C:\Users\Enach\Desktop\Proiect1\Schematics\Proiect\proiect1_enachevictor-pspicefiles\schematic1\
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C2V7      X_D2.model201   X_D3.model201   
+          IS  110.880000E-18    2.640400E-27    2.640400E-27 
+           N     .92657         2               2            
+         ISR    1.515900E-06                                 
+         IKF  147.68                                         
+          BV    2.7639          5               5            
+         IBV     .06977        10.000000E-06   10.000000E-06 
+          RS     .85899         2               2            
+          TT   17.889000E-09                                 
+         CJO  344.690000E-12                                 
+          VJ     .72935                                      
+           M     .31964                                      
+
+
+**** 11/21/24 17:18:30 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim-Vin"  [ C:\Users\Enach\Desktop\Proiect1\Schematics\Proiect\proiect1_enachevictor-pspicefiles\schematic1\
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         QMJD31C         
+               NPN             PNP             NPN             
+       LEVEL    1               1               1            
+          IS   18.220000E-15   20.140000E-15   90.620200E-12 
+          EG                                    1.05         
+          BF  324.4           315.3             3.418700E+03 
+          NF     .9932           .9974          1.17603      
+         VAF   82              39.15           29.2393       
+         IKF     .109            .079            .108267     
+         ISE  289.400000E-18    6.578000E-15  537.193000E-09 
+          NE    1.4             1.45            4            
+          BR    8.29            8.68          367.353        
+          NR     .9931           .9952          5            
+         VAR   17.9             9.5             1.631        
+         IKR     .09             .09            1.15207      
+         ISC    9.982000E-12   16.330000E-15    1.157540E-09 
+          NC    1.763           1.15            1.49179      
+         ISS    0               0               0            
+          RB   10              10              22.4853       
+         RBM    5               5.000000E-06    1.000000E-12 
+         IRB    5.000000E-06    5.000000E-06    2.209370E-03 
+          RE     .649            .663         100.000000E-06 
+          RC     .7014           .718            .138633     
+         CJE   12.440000E-12   11.350000E-12  373.889000E-12 
+         VJE     .7579           .7071           .67672      
+         MJE     .3656           .3808           .575056     
+         CJC    3.347000E-12    6.395000E-12  352.510000E-12 
+         VJC     .5463           .4951           .884306     
+         MJC     .391            .44             .473486     
+        XCJC     .6193           .6288           .1          
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+         MJS     .333            .333            .5          
+          FC     .979            .9059           .8          
+          TF  490.800000E-12  654.600000E-12   10.000000E-09 
+         XTF    9.51            5.387           3.4926       
+         VTF    2.927           6.245          12.6615       
+         ITF     .3131           .2108           .052395     
+          TR   90.000000E-09   55.000000E-09    3.298030E-06 
+         XTB                                  999.997000E-15 
+         XTI                                    1.000000E-12 
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.2             2.42         
+           D     .87             .52             .87         
+
+
+
+          JOB CONCLUDED
+
+**** 11/21/24 17:18:30 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim-Vin"  [ C:\Users\Enach\Desktop\Proiect1\Schematics\Proiect\proiect1_enachevictor-pspicefiles\schematic1\
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

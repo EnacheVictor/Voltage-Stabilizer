@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MNT_HOLE_1MM.dra                              )
+(    Software Version : 24.1S001                                      )
+(    Date/Time        : Sat Dec  7 11:56:25 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = D:/P1_Victor/Enache_Victor/Schematics/Proiect/allegro
+    Name      = mnt_hole_1mm.bsm
+    User      = rares
+    Machine   = RARES-LAPTOP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,190 @@
+(ExpressProject "Proiect1_EnacheVictor"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S001 (4250575)  [11/4/2024]-[12/07/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\biblioteci spice\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File ".\biblioteci spice\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File ".\biblioteci spice\opto.lib"
+        (Type "EDIF Netlist"))
+      (File ".\biblioteci spice\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File ".\biblioteci spice\mjd31cg.lib"
+        (Type "EDIF Netlist")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\proiect1_enachevictor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" ".\allegro\proiect1_enachevictor.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\proiect1_enachevictor.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\proiect1_enachevictor.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\proiect1_enachevictor-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect1_enachevictor-pspicefiles\schematic1\simulare.sim"
+        (DisplayName "SCHEMATIC1-simulare")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect1_enachevictor-pspicefiles\schematic1\sim-temp.sim"
+        (DisplayName "SCHEMATIC1-sim-temp")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect1_enachevictor-pspicefiles\schematic1\sim-rload.sim"
+        (DisplayName "SCHEMATIC1-sim-Rload")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect1_enachevictor-pspicefiles\schematic1\sim- vout.sim"
+        (DisplayName "SCHEMATIC1-sim- Vout")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect1_enachevictor-pspicefiles\schematic1\sim-vin.sim"
+        (DisplayName "SCHEMATIC1-sim-Vin")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\proiect1_enachevictor-pspicefiles\schematic1\sim- vout.sim"))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (File ".\biblioteci spice\bc846b.lib"
+        (DisplayName ".\biblioteci spice\bc846b.lib")
+        (Type "PSpiceLibrary"))
+      (File ".\biblioteci spice\bc856b.lib"
+        (DisplayName ".\biblioteci spice\bc856b.lib")
+        (Type "PSpiceLibrary"))
+      (File ".\biblioteci spice\opto.lib"
+        (DisplayName ".\biblioteci spice\opto.lib")
+        (Type "PSpiceLibrary"))
+      (File ".\biblioteci spice\bzx84c2v7.lib"
+        (DisplayName ".\biblioteci spice\bzx84c2v7.lib")
+        (Type "PSpiceLibrary"))
+      (File ".\biblioteci spice\mjd31cg.lib"
+        (DisplayName ".\biblioteci spice\mjd31cg.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "D:\P1_Victor\Enache_Victor\Schematics\Proiect\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "D:\P1_Victor\Enache_Victor\Schematics\Proiect\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "D:\P1_Victor\Enache_Victor\Schematics\Proiect\allegro\eco.txt")))
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\LED\HYBRID\SUPPORTFILES\LED.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD92\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "rares")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\P1_Victor\Enache_Victor\Schematics\Proiect\proiect1_enachevictor.dsn")
+      (Path "Design Resources"
+         "D:\P1_Victor\Enache_Victor\Schematics\Proiect\proiect1_enachevictor.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Path "Logs")
+      (Select "Design Resources"
+         "D:\P1_Victor\Enache_Victor\Schematics\Proiect\proiect1_enachevictor.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 687"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 705")
+        (Scroll "288 233")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path
+         "D:\P1_VICTOR\ENACHE_VICTOR\SCHEMATICS\PROIECT\PROIECT1_ENACHEVICTOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false"))
